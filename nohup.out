@@ -1,0 +1,47 @@
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.150.0.2:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-184-140
+199.111.224.66 - - [28/Apr/2025 01:03:02] "GET /api/hello HTTP/1.1" 200 -
+34.48.132.123 - - [28/Apr/2025 01:03:12] "GET /api/hello HTTP/1.1" 200 -
+34.48.132.123 - - [28/Apr/2025 01:03:22] "[31m[1mGET /api/secure-data HTTP/1.1[0m" 401 -
+34.48.132.123 - - [28/Apr/2025 01:04:09] "GET /api/secure-data HTTP/1.1" 200 -
+ * Detected change in '/home/edward_cho_jung/client.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-184-140
+34.48.132.123 - - [28/Apr/2025 01:07:22] "GET /api/secure-data HTTP/1.1" 200 -
+ * Detected change in '/home/edward_cho_jung/app.py', reloading
+ * Restarting with stat
+Traceback (most recent call last):
+  File "/home/edward_cho_jung/app.py", line 3, in <module>
+    import pytz
+ModuleNotFoundError: No module named 'pytz'
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.150.0.2:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-184-140
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.150.0.2:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 127-184-140
+34.48.132.123 - - [28/Apr/2025 01:30:27] "GET /api/time?capital=Washington HTTP/1.1" 200 -
+34.48.132.123 - - [28/Apr/2025 01:30:35] "GET /api/time?capital=Tokyo HTTP/1.1" 200 -
